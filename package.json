@@ -2,7 +2,9 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "install": "lerna exec --stream -- yarn"
+    "install": "lerna exec --stream -- yarn",
+    "serve": "lerna run serve --parallel",
+    "build": "lerna run build --stream"
   },
   "devDependencies": {
     "lerna": "^3.13.1"

@@ -20,14 +20,12 @@ export default {
     return {
       routes: [
         { name: '/app-typescript', title: 'app-typescript' },
-        { name: '/app-javascript', title: 'app-javascript' },
-      ],
+        { name: '/app-javascript', title: 'app-javascript' }
+      ]
     }
   }
 }
 </script>
-
-
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -47,5 +45,9 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.link {
+  margin-right: 20px;
 }
 </style>

@@ -3,11 +3,11 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-Vue.config.productionTip = false
+// Vue.config.productionTip = false
 
 // 挂载主项目的 store 实例
 (Vue.prototype.__share_pool__ =
-  Vue.prototype.__share_pool__ || {}).store = store;
+  Vue.prototype.__share_pool__ || {}).store = store
 
 new Vue({
   router,

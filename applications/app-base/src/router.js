@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
+// import Home from './views/Home.vue'
 
 Vue.use(Router)
 
@@ -10,11 +10,10 @@ export default new Router({
   routes: Object.values(routes).reduce((acc, prev) => acc.concat(prev), [
     {
       path: '/',
-      redirect: '/app-javascript',
-    },
-  ]),
+      redirect: '/app-javascript'
+    }
+  ])
 })
-
 
 // export default new Router({
 //   mode: 'history',
